@@ -227,15 +227,18 @@ Bank-Marketing-Subscription-Prediction/
 ├── .gitignore
 │
 ├── notebooks/
-│   └── bank_marketing_prediction.ipynb
+│   └── Bank_Marketing_ML_Engineering.ipynb
 │
 ├── models/
+│   ├── README.md
 │   └── weighted_model.pth
 │
 ├── reports/
-│   ├── training_loss.png
+│   ├── README.md
 │   ├── learning_curves.png
-│   └── confusion_matrix.png
+│   ├── confusion_matrix.png
+│   ├── model_comparison.png
+│   └── threshold_tuning.png
 │
 └── data/
     └── README.md
