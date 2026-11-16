@@ -184,17 +184,16 @@ The model correctly identified 456 out of 1,058 actual subscribers.
 
 ### Project Visualizations
 
-**1. Training and Validation Learning Curves**
-### 1. Training and Validation Learning Curves
+### Training and Validation Learning Curves
 ![Learning Curves](reports/learning_curves.png)
 
-### 2. Final Test Confusion Matrix
+### Final Confusion Matrix
 ![Confusion Matrix](reports/confusion_matrix.png)
 
-### 3. Weighted vs Unweighted Model Comparison
+### Model Comparison
 ![Model Comparison](reports/model_comparison.png)
 
-### 4. Classification Threshold Optimization
+### Threshold Optimization
 ![Threshold Tuning](reports/threshold_tuning.png)
 
 
