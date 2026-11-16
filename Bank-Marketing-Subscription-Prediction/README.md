@@ -2,7 +2,7 @@
 
 A Machine Learning classification project that predicts whether a bank customer will subscribe to a term deposit based on their demographic and previous campaign information.
 
-The project explores Logistic Regression implemented from scratch using **PyTorch**, including data preprocessing, model training, gradient descent, class imbalance handling, threshold tuning, and model evaluation.
+The project explores Logistic Regression implemented using a custom PyTorch model, including data preprocessing, model training, gradient descent, class imbalance handling, threshold tuning, and model evaluation.
 
 ## Project Overview
 
