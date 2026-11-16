@@ -14,7 +14,7 @@ This directory stores trained PyTorch model weights for the Bank Marketing Subsc
 - Learning rate: 0.01
 - Training epochs: 30
 - Positive class weight: 7.5477
-- Selected classification threshold: 0.65
+- Selected classification threshold: 0.63
 
 ## Model File
 
