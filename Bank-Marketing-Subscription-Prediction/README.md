@@ -160,25 +160,46 @@ The selected threshold was then applied to the untouched test dataset.
 
 ## Final Model Evaluation
 
-**Final test results — Weighted Logistic Regression with threshold 0.65**
+**Final model:** Weighted Logistic Regression using PyTorch
+
+**Selected classification threshold:** 0.63
+
+### Test Performance
 
 | Metric | Result |
 |---|---:|
-| Accuracy | 87.01% |
-| Precision (yes) | 44% |
-| Recall (yes) | 40% |
-| F1-score (yes) | 42% |
+| Accuracy | 86.27% |
+| Precision (yes) | 41.61% |
+| Recall (yes) | 43.10% |
+| F1-score (yes) | 42.34% |
 
 ### Confusion Matrix
 
 | | Predicted No | Predicted Yes |
 |---|---:|---:|
-| Actual No | 7,443 | 542 |
-| Actual Yes | 633 | 425 |
+| Actual No | 7,345 | 640 |
+| Actual Yes | 602 | 456 |
 
-The final model correctly identified 425 out of 1,058 actual subscribers.
+The model correctly identified 456 out of 1,058 actual subscribers.
 
-The results demonstrate the trade-off between identifying potential subscribers and generating false positive predictions.
+### Project Visualizations
+
+**1. Training and Validation Learning Curves**
+
+![Learning Curves](reports/learning_curves.png)
+
+**2. Final Test Confusion Matrix**
+
+![Confusion Matrix](reports/confusion_matrix.png)
+
+**3. Weighted vs Unweighted Model Comparison**
+
+![Model Comparison](reports/model_comparison.png)
+
+**4. Classification Threshold Optimization**
+
+![Threshold Tuning](reports/threshold_tuning.png)
+
 
 ## Key Learnings
 
